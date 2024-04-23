@@ -17046,7 +17046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73727260f41cf4340bc0285caa22e860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flashDuration: 0
+  flashDuration: 0.15
   hitMat: {fileID: 0}
 --- !u!1 &1819207733
 GameObject:
@@ -17294,6 +17294,7 @@ MonoBehaviour:
   - {x: 2, y: 3}
   - {x: 2, y: 0}
   - {x: 3, y: 1}
+  counterAttackDuration: 0
   moveSpeed: 8
   jumpForce: 16
   dashCooldown: 1
