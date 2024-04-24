@@ -15,7 +15,9 @@ public class SkeletonGroundedState : EnemyState
     public override void Enter()
     {
         base.Enter();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        // find는 검색 알고리즘이 돌기 때문에 직접 객체 관리하는 매니저로 할당해서 넣어주면 빠르다.
+        player = PlayerManager.instance.player.transform;
 
     }
 

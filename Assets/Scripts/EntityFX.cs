@@ -38,7 +38,7 @@ public class EntityFX : MonoBehaviour
 
     private void CancelRedBlink()
     {
-        CancelInvoke("RedColorBlink");
+        CancelInvoke();
         sr.color = Color.white;
     }
 
